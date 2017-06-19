@@ -1,0 +1,19 @@
+.tweet {
+	margin-bottom: 35px;
+	.tweet-content {
+		font-size: 2rem;
+
+		a {
+			color: $tweetLinkColor;
+			&:hover {
+				color: $black;
+			}
+		}
+	}
+	.modified {
+		font-size: .8rem;
+		color: $tweetModifiedLabelColor;
+		margin: 0;
+		padding: 0;
+	}
+}

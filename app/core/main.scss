@@ -1,0 +1,37 @@
+/*vars*/
+
+$bodybg : #1d1d1d;
+$black: #000;
+$bodyTextColor: #fff;
+$linkHoverColor: #e34e33;
+$sectionLabelColor: #9f9f9f;
+$strokeColor: #282828;
+$projectTitleColor: #67d9da;
+$projectDescColor: $sectionLabelColor;
+$tweetBoxBkg: #464646;
+$tweetsListPanelBkg: $linkHoverColor;
+$tweetLinkColor: #941b1e;
+$tweetModifiedLabelColor: #e4e4e4;
+
+/*///////////*/
+
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  background: $bodybg;
+
+  body {
+    color: $bodyTextColor;
+    margin: 0;
+
+    a {
+      color: $bodyTextColor;
+      text-decoration: none;
+      &:hover {
+        color: $linkHoverColor;
+      }
+    }
+  }
+
+}

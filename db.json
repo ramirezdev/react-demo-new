@@ -1,0 +1,139 @@
+
+{
+  "base": {
+    "tagLine": "An independent full service creative agency helping brave brands build businesses and be heard in a world full of noise.",
+    "signature": "We are Envoy.",
+    "menuItems": [
+      {
+        "displayName": "Work",
+        "route": "#"
+      },
+      {
+        "displayName": "Services",
+        "route": "#"
+      },
+      {
+        "displayName": "Ventures",
+        "route": "#"
+      },
+      {
+        "displayName": "About",
+        "route": "#"
+      },
+      {
+        "displayName": "Contact",
+        "route": "#"
+      },
+      {
+        "displayName": "Blog",
+        "route": "#"
+      }
+    ]
+  },
+
+  "posts": [
+    {
+      "id":"1234",
+      "date": "2016-06-01 11:31:23 PM",
+      "icon": "img/work1.jpg",
+      "title": "THE IPHONE.",
+      "subtitle": "UNCHAINED.",
+      "desc": "Tarantino’s outrageous film Djano Unchained needed an equally in your face mobile experience. Bloody good awesomeness ensued."
+    },
+    {
+      "id":"1345",
+      "date": "2016-06-01 11:31:23 PM",
+      "icon": "img/work2.jpg",
+      "title": "SAY HELLO TO THE",
+      "subtitle": "future of vizio.",
+      "desc": "When Vizio needed to pull the wrap off its new family of PCs they called on Envoy to conceptualize, direct and produce a series of short product films."
+    },
+    {
+      "id":"5678",
+      "date": "2016-06-01 11:31:23 PM",
+      "icon": "img/work3.jpg",
+      "title": "HELPING Earth’s",
+      "subtitle": "Greatest Secrets",
+      "desc": "Activate rocket boots! We created a series of out of this world mobile apps and games to introduce the hilarious animated film Escape From Planet Earth."
+    }
+  ],
+
+  "featured": [
+    {
+      "id": "1234",
+      "date": "2016-06-01 11:31:23 PM",
+      "icon": "img/work1.jpg",
+      "title": "Rebrand",
+      "subtitle": "",
+      "client": "Boost Mobile",
+      "desc": "Boost Mobile recognized the need to elevate and refresh its brand to speak to a broader audience. The result was an evolved logo, Boost Mobile recognized the need to elevate and refresh its brand to speak to a broader audience. The result was an evolved logo,"
+    },
+
+    {
+      "id": "56789",
+      "date": "2016-07-01 11:31:23 PM",
+      "icon": "img/work2.jpg",
+      "title": "Training Portal",
+      "subtitle": "",
+      "client": "Pear Sports",
+      "desc": "Pear Sports revolutionary training systems and fitness apps were getting lost in a crowded marketplace. Envoy rebuilt the story and Pear Sports revolutionary training systems and fitness apps were getting lost in a crowded marketplace. Envoy rebuilt the story and "
+    },
+
+    {
+      "id": "98765",
+      "date": "2016-08-01 11:31:23 PM",
+      "icon": "img/work3.jpg",
+      "title": "Ultimate Training Experience",
+      "subtitle": "",
+      "client": "5.11",
+      "desc": "5.11 the industry leader in tactical gear turned to Envoy to bring their “Ultimate Training Challenge” to life in the digital space 5.11, the industry leader in tactical gear turned to Envoy to bring their “Ultimate Training Challenge” to life in the digital space"
+    }
+
+  ],
+
+  "news": [
+
+    {
+      "id": "1234",
+      "date": "2016-05-01 11:31:23 PM",
+      "title": "The Weinstein Co Lets Envoy Loose on Sin City 2"
+    },
+
+    {
+      "id": "56789",
+      "date": "2016-06-01 11:31:23 PM",
+      "title": "5.11 Taps Envoy as New Digital Agency"
+    },
+
+    {
+      "id": "98765",
+      "date": "2016-07-01 11:31:23 PM",
+      "title": "Pear Breaks Ground on Ground Breaking App"
+    }
+
+
+  ],
+
+  "tweets": [
+
+    {
+      "content": "Can’t wait for the launch of the Envoy Website. <a href='http://instagr.am/p/N8d7E/'>instagr.am/p/N8d7E/</a> Check our latest work.",
+      "date": "about an hour ago via twitter"
+    },
+    {
+      "content": "ooVoo tabs Envoy as new digital agency.",
+      "date": "about an hour ago via twitter"
+    },
+    {
+      "content": "Check out our latest work for <a href='http://twitter.com/promax'>@promax</a>",
+      "date": "about an hour ago via twitter"
+    },
+    {
+      "content": "Sneak peek our new office. <a href='http://but.ly/zH3UnD'>but.ly/zH3UnD</a> Drop in on us.",
+      "date": "about an hour ago via twitter"
+    }
+
+  ]
+
+
+}

@@ -1,0 +1,38 @@
+.featured-work-item {
+	margin-bottom: 20px;
+  	@include grid-column(12);
+
+	img {
+		&.icon {
+			width: 100%;
+			margin-bottom: 20px;
+		}
+	}
+	.project-title, .project-subtitle {
+		color: $projectTitleColor;
+	}
+  	.project-subtitle {
+	  display: block;
+	}
+	.project-desc {
+		font-size: .7rem;
+		color: $projectDescColor;
+		padding: 0px;
+    	margin: 10px 0;
+    	overflow: hidden;
+    	display: -webkit-box;
+    	-webkit-line-clamp: 3;
+   	 	-webkit-box-orient: vertical; 
+	}
+	.project-link {
+		font-size: .7rem;
+		color: $linkHoverColor;
+		&:hover {
+			color: $bodyTextColor;
+		}
+	}
+	@media screen and (min-width: 769px) {
+	  @include grid-column(4);
+    }
+    
+}

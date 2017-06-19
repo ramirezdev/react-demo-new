@@ -1,0 +1,19 @@
+@import 'bourbon';
+@import 'neat';
+//@import "../node_modules/react-image-gallery/src/image-gallery";
+
+//core
+@import './core/main';
+
+//components
+@import "../node_modules/react-image-gallery/styles/scss/image-gallery.scss";
+@import './components/featured-work-item';
+@import './components/nav';
+@import './components/slideshow';
+@import './components/tweetbox';
+@import './components/wire-news-item';
+@import './components/tweetsList';
+@import './components/tweetItem';
+
+//pages
+@import './home/home';

@@ -1,0 +1,46 @@
+.tweet-box {
+	display: none;
+	position: absolute;
+    right: 15px;
+    bottom: -20px;
+	@media screen and (min-width: 769px) {
+		display:inline-block;
+	}
+	.inner-holder {
+		.twitter-feed-holder {
+			display: inline-block;
+			height: 40px;
+			background: $tweetBoxBkg;
+			padding: 10px 15px;
+			vertical-align: top;
+			width: 150px;
+			-webkit-transition: width 350ms;
+    		transition: width 350ms;
+    		transition-timing-function: ease-out;
+			&.enabled {
+				width: 430px;	
+			}
+			
+			.tweet-logo {
+				background: url('img/icons.png') no-repeat -4px -35px;
+				width: 21px;
+				height: 17px;
+				display: inline-block;
+				margin-right: 5px;
+			}
+			.label {
+				font-size: .7rem;
+				color: $projectTitleColor;
+			}
+		}
+		.toggle-link {
+			background: url('img/icons.png') no-repeat -4px -60px;
+			width: 40px;
+			height: 40px;
+			display: inline-block;
+			&.enabled {
+				background: url('img/icons.png') no-repeat -4px -102px;
+			}
+		}
+	}
+}

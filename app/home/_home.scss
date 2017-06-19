@@ -1,0 +1,61 @@
+.app-wrapper {
+	width: 100%;
+	max-width: 1600px;
+	header {
+		position: relative;
+	}
+	.content-holder {
+		max-width: 960px;
+    	margin: 0 auto;
+    	
+		>h2 {
+
+			font-size: 2rem;
+			border-bottom: 2px solid $strokeColor;
+    		padding: 60px 15px 40px 15px;
+    		margin: 0 0 70px;
+    		line-height: 2rem;
+			.sig {
+				color: $linkHoverColor;
+			}
+			@media screen and ( min-width: 769px ) {
+      			padding: 60px 0 40px 0;
+   			}
+		}
+		.feed-items-wrapper {
+
+			section {
+				padding: 0 15px;
+				@media screen and ( min-width: 769px ) {
+      				padding: 0;
+   			 	}
+   			 	.section-label {
+					padding-bottom: 20px;
+				    margin-bottom: 20px;
+				    border-bottom: 2px solid $strokeColor;
+					h3 {
+						color: $sectionLabelColor;
+						font-size: 1.3rem;
+						display: inline;
+					}
+					.view-all-link {
+						color: $linkHoverColor;
+						font-size: .8rem;
+	    				margin-left: 12px;
+						&:hover {
+							color: $bodyTextColor;
+						}
+					}
+				}
+				.featured-work-feed {
+					margin-bottom: 80px
+				}
+
+				.feed {
+				  @include grid-container;
+				}
+			}			
+			
+		}
+	}
+}

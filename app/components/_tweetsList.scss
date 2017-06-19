@@ -1,0 +1,41 @@
+.tweets-list {
+	position: absolute;
+    right: 0;
+    top: 40px;
+    width: 470px;
+    background: $tweetsListPanelBkg;
+    display: none;
+    overflow: hidden;
+    
+    &.enabled {
+    	display: block;
+    	@include animation(open-panel 350ms ease-out);
+    	
+    }
+    
+    .wrapper {
+    	height: 590px;
+	    overflow-y: scroll;
+	    overflow-x: hidden;
+	    padding: 10px;
+	    margin: 18px;
+	     &::-webkit-scrollbar {
+    		width: .3rem;
+		}
+ 
+		&::-webkit-scrollbar-track {
+		    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+		}
+ 
+		&::-webkit-scrollbar-thumb {
+		  background-color: $black;
+		  outline: 1px solid $projectDescColor;
+		}
+    }
+   
+}
+
+@include keyframes (open-panel) {
+  0% {height:0}
+  100% {height:640px}
+}
