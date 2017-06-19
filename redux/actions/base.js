@@ -4,6 +4,8 @@ import {
   FETCHING_BASE_DATA_FAILURE,
 } from '../constants';
 
+const URL = 'http://localhost:3000/';
+
 export function getBase() {
   return {
     type: FETCHING_BASE_DATA
@@ -27,8 +29,7 @@ export function fetchBase() {
 
   return ( dispatch ) => {
     dispatch( getBase() );
-    const URL = "http://localhost:3000/base";
-    return fetch( URL, { method: 'GET' } )
+    return fetch( URL + 'base', { method: 'GET' } )
         .then( response => Promise.all( [ response, response.json() ] ) )
         .then( ( [ response, json ] ) => {
         if( response.status === 200 ){
