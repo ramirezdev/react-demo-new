@@ -8,12 +8,10 @@
 			margin-bottom: 20px;
 		}
 	}
-	.project-title, .project-subtitle {
+	.project-title {
 		color: $projectTitleColor;
 	}
-  	.project-subtitle {
-	  display: block;
-	}
+  	
 	.project-desc {
 		font-size: .7rem;
 		color: $projectDescColor;

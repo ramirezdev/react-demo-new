@@ -10,7 +10,6 @@ const FeaturedWorkItemView = ( props ) => {
 			<img className="icon" src={ icon }/>
 			<span className="client-name">{ client }</span>
 			<span className="project-title">{ title }</span>
-			<span className="project-subtitle">{ subtitle }</span>
 			<p className="project-desc">{ desc }</p>
 			<a href={ 'featured-work/' + id } className="project-link">View Project</a>
 		</article>

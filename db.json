@@ -32,29 +32,31 @@
   },
 
   "posts": [
-    {
-      "id":"1234",
+     {
+      "id": "1234",
       "date": "2016-06-01 11:31:23 PM",
       "icon": "img/work1.jpg",
-      "title": "THE IPHONE.",
-      "subtitle": "UNCHAINED.",
-      "desc": "Tarantino’s outrageous film Djano Unchained needed an equally in your face mobile experience. Bloody good awesomeness ensued."
+      "title": "Rebrand",
+      "client": "Boost Mobile",
+      "desc": "Boost Mobile recognized the need to elevate and refresh its brand to speak to a broader audience. The result was an evolved logo, Boost Mobile recognized the need to elevate and refresh its brand to speak to a broader audience. The result was an evolved logo,"
     },
+
     {
-      "id":"1345",
-      "date": "2016-06-01 11:31:23 PM",
+      "id": "56789",
+      "date": "2016-07-01 11:31:23 PM",
       "icon": "img/work2.jpg",
-      "title": "SAY HELLO TO THE",
-      "subtitle": "future of vizio.",
-      "desc": "When Vizio needed to pull the wrap off its new family of PCs they called on Envoy to conceptualize, direct and produce a series of short product films."
+      "title": "Training Portal",
+      "client": "Pear Sports",
+      "desc": "Pear Sports revolutionary training systems and fitness apps were getting lost in a crowded marketplace. Envoy rebuilt the story and Pear Sports revolutionary training systems and fitness apps were getting lost in a crowded marketplace. Envoy rebuilt the story and "
     },
+
     {
-      "id":"5678",
-      "date": "2016-06-01 11:31:23 PM",
+      "id": "98765",
+      "date": "2016-08-01 11:31:23 PM",
       "icon": "img/work3.jpg",
-      "title": "HELPING Earth’s",
-      "subtitle": "Greatest Secrets",
-      "desc": "Activate rocket boots! We created a series of out of this world mobile apps and games to introduce the hilarious animated film Escape From Planet Earth."
+      "title": "Ultimate Training Experience",
+      "client": "5.11",
+      "desc": "5.11 the industry leader in tactical gear turned to Envoy to bring their 'Ultimate Training Challenge' to life in the digital space 5.11, the industry leader in tactical gear turned to Envoy to bring their 'Ultimate Training Challenge' to life in the digital space"
     }
   ],
 
